@@ -2,36 +2,38 @@
 <html>
 <head>
 	<title>Taniti</title>
+	<link rel="stylesheet" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
-<style>
-	header {}
-	nav {}
-	section {}
-	article {}
-	footer {}
-</style>
 
 <body>
 
 <header>Welcome to Taniti!</header>
 
-<nav>
-	<ul>
-		<li><a href="./index.html">Home</a></li>
-		<li><a href="./content.html">Content</a></li>
-		<li><a href="./faqs.html">FAQs</a></li>
-	</ul>
+<nav id="sideNav">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	<a href="./index.html">Home</a>
+	<a href="./content.html">Restaurants</a>
+	<a href="./content.html">Grocery Stores</a>
+	<a href="./content.html">Lodging</a>
+	<a href="./content.html">Entertainment</a>
+	<a href="./content.html">Transportation</a>
+	<a href="./faqs.html">FAQs</a>
 </nav>
+
+<div id="main">
+<button class="openNavBtn" onclick="openNav()">☰</button>
 
 <section>
 	content
 </section>
+</div>
 
 <footer>
 	foot
 </footer>
+
+<script src="sideNavFunctions.js"></script>
 
 </body>
 </html>
