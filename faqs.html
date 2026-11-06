@@ -1,30 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Taniti</title>
+	<title>FAQs</title>
 	<link rel="stylesheet" href="styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+<header>Frequently Asked Questions:</header>
 
-<header>Welcome to Taniti!</header>
-
-<nav>
-	<ul>
-		<li><a href="./index.html">Home</a></li>
-		<li><a href="./content.html">Content</a></li>
-		<li><a href="./faqs.html">FAQs</a></li>
-	</ul>
+<nav id="sideNav">
+	<a href="javascript:void(0)" id="closeNavBtn" onclick="closeNav()">×</a>
+	<a href="./index.html">Home</a>
+	<a href="./restaurants.html">Restaurants</a>
+	<a href="./grocery.html">Grocery Stores</a>
+	<a href="./lodging.html">Lodging</a>
+	<a href="./entertainment.html">Entertainment</a>
+	<a href="./transportation.html">Transportation</a>
+	<a href="./faqs.html">FAQs</a>
 </nav>
+<button id="openNavBtn" onclick="openNav()">☰</button>
 
-<section>
-	content
+<section id="main">
+<article>
+	<h3>Question1</h3>
+	<p>Answer1</p>
+</article>
+<article>
+	<h3>Question2</h3>
+	<p>Answer2</p>
+</article>
+<article>
+	<h3>Question3</h3>
+	<p>Answer3</p>
+</article>
+<article>
+	<h3>Question4</h3>
+	<p>Answer4</p>
+</article>
+<article>
+	<h3>Question5</h3>
+	<p>Answer5</p>
+</article>
+<article>
+	<h3>Question6</h3>
+	<p>Answer6</p>
+</article>
+<article>
+	<h3>Question7</h3>
+	<p>Answer7</p>
+</article>
 </section>
 
 <footer>
 	foot
 </footer>
+
+<script src="sideNavFunctions.js"></script>
 
 </body>
 </html>
