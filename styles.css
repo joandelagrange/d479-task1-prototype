@@ -65,7 +65,6 @@ article div {
 article p { padding-left: 100px; }
 
 footer {
-	position: fixed;
 	background-color: #ddd;
 	border: 1px solid black;
 	padding: 30px;
